@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .slideshow-container {
+    margin: auto;
+    max-width: 800px;
+    position: relative;
+    /* display: none; */
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+  }
+  
+  /* next & previous buttons */
+  .next, .prev {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    padding: 15px;
+    color: red;
+    text-decoration: none;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: pink;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  /* text */
+  .text {
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  /* dots */
+  .dots {
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    background-color: #bbb;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  .active {
+    background-color: #717171;
+  }
